@@ -81,9 +81,13 @@ main{
     position: relative;
 }
 .product-like{
+    
     position: absolute;
     right: 5px;
-    top: 5px;
+    top: 20px;
+}
+.product-like:hover{
+    color: red;
 }
 .product-label{
     position: relative;
