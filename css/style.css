@@ -54,7 +54,9 @@ header .flex-container{
 }
 
 /* MAIN  */
-
+main{
+    padding: 30px 0;
+}
 .product{
     width: calc(100% / 3);
     padding: 10px;
