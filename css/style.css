@@ -12,7 +12,7 @@ img{
 }
 a{
     text-decoration: none;
-    color: white;
+    color: inherit; /*eredita il colore*/
 }
 ul{
     list-style-type: none;
@@ -35,7 +35,8 @@ ul{
 header{
     background-color: #fe6900;
     color: white;
-    position: fixed;
+    position: fixed;/*alternativa era sticky e top:0;
+    per evitare di dare troppo padding al main*/
     width: 100%;
     z-index: 1;
     padding: 15px 0;
